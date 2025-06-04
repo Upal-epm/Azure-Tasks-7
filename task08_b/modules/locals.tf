@@ -21,9 +21,9 @@ locals {
   redis_password_secret_name = "redis-password"
 
   tags = {
-    Creator = "megha_kumari1@epam.com"
+    Creator = "upal_chattopadhyay@epam.com"
   }
 
-  dns_name_label = "meghadnslabel"
+  dns_name_label = "upaldnslabel"
   dns_prefix     = "${var.name_prefix}-k8s"
 }
